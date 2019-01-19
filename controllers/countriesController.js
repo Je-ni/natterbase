@@ -38,6 +38,30 @@ const Country = {
         error
       })
     }
+  },
+  delete(req, res){
+    try {
+      const index = countries.indexOf(req.query.country);
+      if (index){
+        const deleted = countries.splice(index, 1);
+        deleted;
+        return res.json({
+          status: 200,
+          message: `You just deleted ${deleted}`
+        })
+      } else {
+        return res.json({
+          status: 404,
+          message: `${req.query.country} not found`
+        })
+      }
+    } catch (error) {
+      return res.json({
+        status: 500,
+        message: 'Unexpected error. Please try again',
+        error
+      })
+    }
   }
 }
 
