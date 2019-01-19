@@ -14,6 +14,30 @@ const Country = {
         error
       })
     }
+  },
+
+  create(req, res) {
+    try {
+      if (!countries.includes(req.query.country)){
+        countries.push(req.query.country);
+        return res.json({
+          status: 200,
+          addedCountry: countries[countries.length - 1],
+          countries: countries 
+        })
+      } else {
+        return res.json({
+          status: 409,
+          error: 'Duplicate entry'
+        })
+      }
+    } catch (error) {
+      return res.json({
+        status: 500,
+        message: 'Unexpected error. Please try again',
+        error
+      })
+    }
   }
 }
 
