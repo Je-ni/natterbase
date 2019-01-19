@@ -1,5 +1,5 @@
 # natterbase
-Providng proof that I'm worth it
+providing proof that I'm worth it
 
 # endpoints
 ## POST /user
