@@ -42,7 +42,7 @@ const Country = {
   delete(req, res){
     try {
       const index = countries.indexOf(req.query.country);
-      if (index){
+      if (index >= 0){
         const deleted = countries.splice(index, 1);
         deleted;
         return res.json({

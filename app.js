@@ -20,7 +20,9 @@ app.use('/country', countryRoute);
 // Setup a route that sends back an apology message in JSON format.
 app.get('/', (req, res) => res.send({
   status: 200,
-  message: 'I apologise once again for this lateness in submission.',
+  message: `I apologise once again for this lateness in submission.
+            Routes include /user and /country.
+            Use query for country that is, .../country?country=Nigeria`,
 }));
 
 const port = parseInt(process.env.PORT, 10) || 8000;
