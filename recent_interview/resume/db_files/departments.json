@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5caf8bdd7beb6f18b8fdf813"},"name":"Clothing","manager_id":{"$oid":"5caf84bd88d5771c98d00125"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8be97beb6f18b8fdf814"},"name":"Books","manager_id":{"$oid":"5caf84bd88d5771c98d00125"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c047beb6f18b8fdf815"},"name":"Grocery","manager_id":{"$oid":"5caf84bd88d5771c98d00125"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c0b7beb6f18b8fdf816"},"name":"Garden","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c0e7beb6f18b8fdf818"},"name":"Industrial","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c107beb6f18b8fdf819"},"name":"Clothing","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c127beb6f18b8fdf81a"},"name":"Health","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c137beb6f18b8fdf81b"},"name":"Books","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c147beb6f18b8fdf81c"},"name":"Garden","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5caf8c167beb6f18b8fdf81d"},"name":"Books","manager_id":{"$oid":"5caf84c288d5771c98d00126"},"__v":{"$numberInt":"0"}}
